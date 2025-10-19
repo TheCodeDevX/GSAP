@@ -6,7 +6,7 @@ import gsap from 'gsap'
   gsap.registerPlugin(ScrollTrigger, SplitText)
    return (
      <div className="flex-center h-screen">
-       <h1 className="text-3xl text-indigo-530">Hello, Gsap!!</h1>
+       <h1 className="text-3xl text-indigo-530">Hello, Gsap!</h1>
      </div>
    )
  }
