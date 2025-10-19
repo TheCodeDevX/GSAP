@@ -7,6 +7,7 @@ import gsap from 'gsap'
    return (
      <div className="flex-center h-screen">
        <h1 className="text-3xl text-indigo-530">Hello, Gsap!</h1>
+       <span></span>
      </div>
    )
  }
