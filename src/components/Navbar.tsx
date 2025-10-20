@@ -11,10 +11,9 @@ import gsap from 'gsap'
         const navTween = gsap.timeline({
             scrollTrigger:{
                 trigger: "nav",
-                start: "bottom top" // this is super efficient for nav because it's applied once the 
+                start: "bottom top", // this is super efficient for nav because it's applied once the 
                 // bottom of the nav hits the top of the viewport (exactly when the nav leaves the screen)
-
-
+                end : "top top",
             }
         });
 
@@ -24,7 +23,7 @@ import gsap from 'gsap'
             duration: 1,
             ease : "power1.inOut"
         })
-    }, [])
+    })
     
    return (
     <nav>
