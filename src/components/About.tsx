@@ -29,7 +29,7 @@ import { SplitText } from "gsap/all"
             ease:"power1.inOut",
             stagger:0.04
         }, "-=0.5") // starts half a second before the previous animation ends.
-    }, [])
+    })
    return (
      <div id="about">
        <div className="mb-16 md:px-0 px-5">
